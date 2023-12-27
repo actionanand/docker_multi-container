@@ -186,25 +186,44 @@ There are two key commands:
 
 Of course, there are **more commands**. We see more commands in other sections (e.g. the "Utility Containers" and "Laravel Demo" sections) but you can of course also already dive into the [official command reference](https://docs.docker.com/compose/reference/)
 
+### Docker Images
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/b34b01c2-c3ba-4bb5-b634-c41c4db740fe)
+
+### Docker Containers
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/1d5a3965-50e0-43f1-bf58-9a4f8373c00f)
+
+### Docker Volumes
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/9eb1b2b7-229a-4141-a27f-3db0bd5c1e53)
+
+### Docker Networks
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/b0d12cc5-e1de-474b-8155-f6320c7c3f28)
+
+### Docker-compose - Shell commands
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/395db00c-36e0-4288-a68f-f934d7114bb2)
+
+> The displayed localhost port `3000` is to access it inside the docker. This port will be exposed at port `3001` for our host machine. Please refer the `docker-compose.yaml` file for more details.
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/f710a030-7264-453e-9333-afe391dea013)
+
+## Output
+
+Point your browser to `http://localhost:3001/`
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/702739dd-96d3-4736-9abe-1379e2238b11)
+
+### Docker Image's public URL
+
+* [actionanand/docker_multi-container_node](https://hub.docker.com/r/actionanand/docker_multi-container_node)
+* [actionanand/docker_multi-container_react](https://hub.docker.com/r/actionanand/docker_multi-container_react)
+
 ## Associated repos:
 
 1. [Docker Basics](https://github.com/actionanand/docker_playground)
 2. [Managing Data and working with volumes](https://github.com/actionanand/docker_data_volume)
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/702739dd-96d3-4736-9abe-1379e2238b11)
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/1d5a3965-50e0-43f1-bf58-9a4f8373c00f)
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/b34b01c2-c3ba-4bb5-b634-c41c4db740fe)
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/9eb1b2b7-229a-4141-a27f-3db0bd5c1e53)
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/b0d12cc5-e1de-474b-8155-f6320c7c3f28)
-
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/395db00c-36e0-4288-a68f-f934d7114bb2)
-
-![image](https://github.com/actionanand/docker_multi-container/assets/46064269/f710a030-7264-453e-9333-afe391dea013)
-
-
-
+3. [Docker Communication](https://github.com/actionanand/docker_communication)
+4. [Docker Multi-container with docker-compose](https://github.com/actionanand/docker_multi-container)
