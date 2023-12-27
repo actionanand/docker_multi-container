@@ -36,13 +36,13 @@ docker build . -t actionanand/docker_multi-container_node
 4. Run Node API Container
 
 ```shell
-docker run -d --rm --name docker_multi-container_node -e MONGODB_USERNAME=anand -e MONGODB_PASSWORD=secret -v logs:/app/logs -v D:\AR_extra\rnd\docker\docker_multi-container\backend:/app:ro -v /app/node_modules --network goals-net -p 3002:80 actionanand/docker_multi-container_node
+docker run -d --rm --name docker_multi-container_node -e MONGODB_USERNAME=anand -e MONGODB_PASSWORD=secret -v logs:/app/logs -v /app/node_modules -v D:\AR_extra\rnd\docker\docker_multi-container\backend:/app:ro --network goals-net -p 3002:80 actionanand/docker_multi-container_node
 ```
 
 below command for mac, linux and wsl2
 
 ```shell
-docker run -d --rm --name docker_multi-container_node -e MONGODB_USERNAME=anand -e MONGODB_PASSWORD=secret -v logs:/app/logs -v $(pwd)/backend:/app:ro -v /app/node_modules --network goals-net -p 3002:80 actionanand/docker_multi-container_node
+docker run -d --rm --name docker_multi-container_node -e MONGODB_USERNAME=anand -e MONGODB_PASSWORD=secret -v logs:/app/logs -v /app/node_modules -v $(pwd)/backend:/app:ro --network goals-net -p 3002:80 actionanand/docker_multi-container_node
 ```
 
 ```python
