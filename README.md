@@ -190,3 +190,17 @@ Of course, there are **more commands**. We see more commands in other sections (
 
 1. [Docker Basics](https://github.com/actionanand/docker_playground)
 2. [Managing Data and working with volumes](https://github.com/actionanand/docker_data_volume)
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/702739dd-96d3-4736-9abe-1379e2238b11)
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/1d5a3965-50e0-43f1-bf58-9a4f8373c00f)
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/b34b01c2-c3ba-4bb5-b634-c41c4db740fe)
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/9eb1b2b7-229a-4141-a27f-3db0bd5c1e53)
+
+![image](https://github.com/actionanand/docker_multi-container/assets/46064269/b0d12cc5-e1de-474b-8155-f6320c7c3f28)
+
+
+
+
