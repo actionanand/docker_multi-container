@@ -26,6 +26,8 @@ docker run --name mongodb \
 ```
 
 3. Build Node API Image (backend)
+   
+  - Navigate to `backend` folder where `Dockerfile` exists and build the image
 
 ```bash
 docker build . -t actionanand/docker_multi-container_node
@@ -58,6 +60,8 @@ docker run --name docker_multi-container_node \
 ```
 
 5. Build React SPA Image
+
+   - Navigate to `frontend` folder where `Dockerfile` exists and build the image
 
 ```bash
 docker build . -t actionanand/docker_multi-container_react
