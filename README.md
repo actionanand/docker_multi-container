@@ -231,3 +231,6 @@ Point your browser to `http://localhost:3001/`
 2. [Managing Data and working with volumes](https://github.com/actionanand/docker_data_volume)
 3. [Docker Communication](https://github.com/actionanand/docker_communication)
 4. [Docker Multi-container with docker-compose](https://github.com/actionanand/docker_multi-container)
+5. [Docker Utility Containers & Executing Commands](https://github.com/actionanand/node-util)
+6. [Laravel with Docker](https://github.com/actionanand/laravel_with_docker)
+7. [Angular with Docker](https://github.com/actionanand/angular_with_docker)
